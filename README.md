@@ -1,4 +1,0 @@
-dmnyc
-=====
-
-dead meat nyc
