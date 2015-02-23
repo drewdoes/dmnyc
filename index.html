@@ -36,7 +36,7 @@
     <!--End mc_embed_signup--></p>
 
     <div class="contact"> <a href="mailto:yo@deadmeat.nyc">yo@deadmeat.nyc</a></div>
-    <p> <a id="mute-video" href="#"><i class="glyphicon glyphicon-volume-off"></i></a> </p>
+    <div><a id="mute-video" href="#"><i class="glyphicon glyphicon-volume-off"></i></a></div>
 
 <video autoplay loop poster="polina.jpg" id="bgvid">
 <source src="video/fbwyh.mp4" type="video/webm">
@@ -55,7 +55,7 @@
             } catch(err) {}
           </script>
 
-            <script>
+            <script type="text/javascript">
 var audio = document.getElementById('bgvid');
 
 document.getElementById('mute-video').addEventListener('click', function (e)
@@ -63,8 +63,9 @@ document.getElementById('mute-video').addEventListener('click', function (e)
     e = e || window.event;
     audio.muted = !audio.muted;
     e.preventDefault();
-}, false);</script>
-    
+}, false)
+        </script>
+
     
     </div>
   </body>
