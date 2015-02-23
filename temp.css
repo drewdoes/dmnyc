@@ -1,7 +1,7 @@
 /* CSS FOR DEADMEAT.NYC */
 body { font-family: walter-turncoat;
     color: white;
-    background-color:black;
+    background-color:#000;
 }
 #bgvid {
     position: fixed; right: 0; bottom: 0;
@@ -73,3 +73,9 @@ h1 {
     position:absolute;
     bottom:50px;
 }
+
+.required {
+    color:#000;
+}
+
+
