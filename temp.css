@@ -1,14 +1,7 @@
 /* CSS FOR DEADMEAT.NYC */
 body { font-family: walter-turncoat;
     color: white;
-    background-color:#000;
-}
-#bgvid {
-    position: fixed; right: 0; bottom: 0;
-    min-width: 100%; min-height: 100%;
-    width: auto; height: auto; z-index: -100;
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
+    background-color:#7b6c9b;
 }
 
 h1 {
@@ -30,12 +23,13 @@ h1 {
 }
 
 #mc_embed_signup_scroll {
-    margin-top:20%;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 .logo {
-    max-width:300px;
-    margin-top:10%;
+    max-width:700px;
+    margin-top:5%;
 }
 
 .mc-field-group {
@@ -53,7 +47,9 @@ h1 {
 }
 
 .contact {
-    margin-top:20%;
+    bottom:5px;
+    position:absolute;
+    z-index:10;
 }
 
 .container a {
@@ -79,3 +75,99 @@ h1 {
 }
 
 
+
+
+
+.full-wrapper {
+    background:#7b6c9b;
+    width:100%;
+    height:100%;
+}
+
+
+
+.fb-icon {
+    width:100px;
+    height:96px;
+    background-image:url("/images/fb-icon.png");
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.twitter-icon {
+    width:100px;
+    height:96px;
+    background-image:url("/images/twitter-icon.png");
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.twitter-icon:hover {
+    background-image:url("/images/twitter-hover.png");
+}
+
+.soundcloud-icon {
+    width:100px;
+    height:96px;
+    background-image:url("/images/soundcloud-icon.png");
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.soundcloud-icon:hover {
+    background-image:url("/images/soundcloud-hover.png");
+}
+
+.instagram-icon {
+    width:100px;
+    height:96px;
+    background-image:url("/images/insta-icon.png");
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.instagram-icon:hover {
+    background-image:url("/images/insta-hover.png");
+}
+
+.tumblr-icon {
+    width:100px;
+    height:96px;
+    background-image:url("/images/tumblr-icon.png");
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.tumblr-icon:hover {
+    background-image:url("/images/tumblr-hover.png");
+}
+
+.youtube-icon {
+    width:100px;
+    height:96px;
+    background-image:url("/images/youtube-icon.png");
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+.youtube-icon:hover {
+    background-image:url("/images/youtube-hover.png");
+}
+
+.fb-icon:hover {
+    background-image:url("/images/fb-hover.png");
+}
+
+
+
+.socials {
+    padding-bottom:100px;
+}
+
+
+
+.tinder-wrap {
+    position:relative;
+    margin-left:-200px;
+    max-width:400px;
+}

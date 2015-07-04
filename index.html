@@ -5,12 +5,12 @@
     <title>Dead Meat NYC</title>
     <link rel="stylesheet" href="temp.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <script src="main.js"></script>
 </head>
 <body>
+    <div class="full-wrapper">
     <div class="container center">
 
-    <img class="image-responsive logo" alt="dead meat" src="/images/logo.png">
+    <img class="img-responsive logo" alt="dead meat" src="/images/dead-meat-logo.png">
     <p><!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
         <form action="//nyc.us9.list-manage.com/subscribe/post?u=c7066eb384b737c07700ef3eb&amp;id=661af762cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -28,22 +28,34 @@
                 </div>    
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_c18249199aa3844b35e22d72f_14c62e51e5" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="get news" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <div class="clear"><button type="submit" name="subscribe" id="mc-embedded-subscribe btn" class="btn btn-default button">get news</div>
             </div>
         </form>
     </div>
 
     <!--End mc_embed_signup--></p>
+    <div class="container socials">
+        <div class="row">
+                <a target="_blank" href="http://www.facebook.com/deadmeatnyc"><div class="col-md-2 fb-icon"></div></a>
 
+                <a target="_blank" href="http://www.facebook.com/deadmeatnyc"><div class="col-md-2 twitter-icon"></div></a>
+
+                <a target="_blank" href="http://www.facebook.com/deadmeatnyc"><div class="col-md-2 soundcloud-icon"></div></a>
+
+                <a target="_blank" href="http://www.facebook.com/deadmeatnyc"><div class="col-md-2 instagram-icon"></div></a>
+
+                <a target="_blank" href="http://www.facebook.com/deadmeatnyc"><div class="col-md-2 youtube-icon"></div></a>
+
+                <a target="_blank" href="http://www.facebook.com/deadmeatnyc"><div class="col-md-2 tumblr-icon"></div></a>
+            </div>
+        </div>
     <div class="contact"> <a href="mailto:yo@deadmeat.nyc">yo@deadmeat.nyc</a></div>
-    <div><a id="mute-video" href="#"><i class="glyphicon glyphicon-volume-off"></i></a></div>
 
-<video autoplay loop poster="polina.jpg" id="bgvid">
-<source src="video/fbwyh.mp4" type="video/webm">
-<source src="video/fbwyh.mp4" type="video/mp4">
-</video>
-
-    <script src="javascripts/scale.fix.js"></script>
+    <div class="container tinder-wrap">
+        <div class="row">
+    <img alt="theres no one new around you" class="img-responsive" src="/images/dead-meat-tinder.png">
+        </div>
+    </div>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -55,18 +67,7 @@
             } catch(err) {}
           </script>
 
-            <script type="text/javascript">
-var audio = document.getElementById('bgvid');
-
-document.getElementById('mute-video').addEventListener('click', function (e)
-{
-    e = e || window.event;
-    audio.muted = !audio.muted;
-    e.preventDefault();
-}, false)
-        </script>
-
-    
     </div>
+        </div>
   </body>
 </html>
